@@ -1,4 +1,5 @@
 export const config = { api: { bodyParser: true } };
+// v1.1 – force rebuild
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).end();
